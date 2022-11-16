@@ -48,3 +48,24 @@
   color: #f00000;
   border: 1px solid #f00000;
 }
+
+.tooltip-light .tooltip-inner {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.tooltip-light.bs-tooltip-top .tooltip-arrow:before {
+  border-top-color: #ffffff;
+}
+
+.tooltip-light.bs-tooltip-right .tooltip-arrow:before {
+  border-right-color: #ffffff;
+}
+
+.tooltip-light.bs-tooltip-left .tooltip-arrow:before {
+  border-left-color: #ffffff;
+}
+
+.tooltip-light.bs-tooltip-bottom .tooltip-arrow:before {
+  border-bottom-color: #ffffff;
+}
